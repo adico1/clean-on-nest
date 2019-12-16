@@ -1,9 +1,8 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { AccountsController } from './accounts.controller';
 import { AccountDto } from './dto/account-dto';
-import { getRepositoryToken, TypeOrmModule } from '@nestjs/typeorm';
 import { RefreshTokenService } from '../auth/refresh-token/refresh-token.service';
-import { JwtService, JwtModule } from '@nestjs/jwt';
+import { JwtService } from '@nestjs/jwt';
 
 const seedId = Date.now()
     .toString()

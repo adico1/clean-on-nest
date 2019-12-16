@@ -12,8 +12,6 @@ import { AccountsModule } from './accounts/accounts.module';
 
 import * as passport from 'passport';
 import { useContainer } from 'class-validator';
-// import * as session from 'express-session';
-// import * as cookieParser from 'cookie-parser';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -22,17 +20,7 @@ async function bootstrap() {
   
   const globalPrefix = 'api';
   app.setGlobalPrefix(globalPrefix);
-  // app.useGlobalPipes(new DecksPipe());
-
-  // app.use(session({
-  //   secret: 'qwertyuiopasdfghjklzxcvbnm123456',
-  //   name: 'sess-bootcamp',
-  //   resave: false,
-  //   saveUninitialized: false
-  // }))
-  // app.use(cookieParser());
   app.use(passport.initialize());
-  // app.use(passport.session());
   
   if (!configService.isProduction()) {
 
