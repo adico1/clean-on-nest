@@ -1,0 +1,39 @@
+{
+  "npmScope": "btcp",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "bootcamp-client-e2e": {
+      "tags": []
+    },
+    "bootcamp-client": {
+      "tags": []
+    },
+    "bootcamp-api": {
+      "tags": []
+    },
+    "bootcamp-model": {
+      "tags": []
+    },
+    "bootcamp-ui": {
+      "tags": []
+    },
+    "bootcamp-data": {
+      "tags": []
+    },
+    "bootcamp-businesslogic": {
+      "tags": []
+    },
+    "bootcamp-entities": {
+      "tags": []
+    },
+    "bootcamp-interfaceadapters": {
+      "tags": []
+    }
+  }
+}

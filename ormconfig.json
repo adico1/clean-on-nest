@@ -1,0 +1,19 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "postgres",
+  "password": "",
+  "database": "ninja-coder-bootcamp",
+  "entities": [
+    "**/*.entity{.ts,.js}"
+  ],
+  "migrationsTableName": "migration",
+  "migrations": [
+    "apps/bootcamp-api/src/migration/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "apps/bootcamp-api/src/migration"
+  },
+  "ssl": false
+}

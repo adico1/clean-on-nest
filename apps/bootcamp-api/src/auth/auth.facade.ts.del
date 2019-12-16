@@ -1,0 +1,16 @@
+// import { IControllerFacede } from '../shared/interfaces/controller-facede.interface';
+// import { Factory } from '../accounts/common/factory';
+// import { RefreshTokenService, AuthService } from '@btcp/bootcamp-blogic';
+// import { AuthDependencies, VerificationGeneratorDependencies } from '@btcp/bootcamp-interfaceadapters';
+
+// export class AuthFacade extends IControllerFacede {
+//   public exec() {
+//     const repository = Factory.createAccountRepository(this._connection);
+//     const refreshTokenRepository = 
+//       Factory.createRefreshTokenRepository(this._connection);
+//     const refreshTokenService = new RefreshTokenService(refreshTokenRepository);
+//     const authDependencies = new AuthDependencies();
+//     const verificationGenerator = new VerificationGeneratorDependencies();
+//     return new AuthService(repository,authDependencies, verificationGenerator, refreshTokenService); 
+//   }
+// }

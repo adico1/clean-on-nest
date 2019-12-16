@@ -1,0 +1,12 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "bootcamp2Workspace",
+      "camelCase"
+    ],
+    "component-selector": [true, "element", "btcp", "kebab-case"]
+  }
+}

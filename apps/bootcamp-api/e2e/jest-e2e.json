@@ -1,0 +1,23 @@
+{
+  "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+  ],
+  "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+  },
+  "testRegex": "/e2e/.*\\.(e2e-test|e2e-spec).(ts|tsx|js)$",
+  "collectCoverageFrom" : ["src/**/*.{js,jsx,tsx,ts}", "!**/node_modules/**", "!**/vendor/**"],
+  "coverageReporters": ["json", "lcov"],
+  "moduleNameMapper": {
+    "^@btcp/bootcamp-data$": "<rootDir>/../../../libs/bootcamp-data/src/index.ts",
+    "^@btcp/bootcamp-ui$": "<rootDir>/../../../libs/bootcamp-ui/src/index.ts",
+    "^@btcp/bootcamp-model$": "<rootDir>/../../../libs/bootcamp-model/src/index.ts",
+    "^@btcp/bootcamp-blogic$": "<rootDir>/../../../libs/bootcamp-businesslogic/src/index.ts",
+    "^@btcp/bootcamp-entities$": "<rootDir>/../../../libs/bootcamp-entities/src/index.ts",
+    "^@btcp/bootcamp-interfaceadapters$": 
+      "<rootDir>/../../../libs/bootcamp-interfaceadapters/src/index.ts"
+  }
+}
