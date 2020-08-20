@@ -76,7 +76,7 @@
     "@nrwl/angular": "^8.6.0",
     "@types/morgan": "^1.7.37",
     "ace-builds": "^1.4.6",
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "bootstrap": "^4.3.1",
     "chromedriver": "^77.0.0",
     "class-transformer": "^0.2.3",
