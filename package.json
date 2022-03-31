@@ -148,7 +148,7 @@
     "jest": "24.1.0",
     "jest-preset-angular": "7.0.0",
     "less-loader": "^5.0.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.6",
     "nodemon": "^1.19.4",
     "prettier": "1.18.2",
     "style-loader": "^1.0.0",
